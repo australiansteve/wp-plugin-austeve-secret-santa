@@ -1,0 +1,22 @@
+#secret-santa-display-form #names > div 
+{
+	max-width: 600px;
+	margin: 2rem auto;
+	padding-bottom: 1rem;
+	border-bottom: 2px solid black;
+}
+
+#secret-santa-display-form #names > div:nth-last-of-type(1) 
+{
+	border-bottom: none;
+}
+
+#secret-santa-display-form #names > div label {
+	display: inline-block;
+	width: 29%;
+	text-align: right;
+}
+#secret-santa-display-form #names > div input {
+	display: inline-block;
+	width: 70%;
+}
